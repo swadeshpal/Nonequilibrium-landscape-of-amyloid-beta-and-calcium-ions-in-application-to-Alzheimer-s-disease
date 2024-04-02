@@ -1,6 +1,6 @@
 # Nonequilibrium-landscape-of-amyloid-beta-and-calcium-ions-in-application-to-Alzheimer-s-disease
 
-# For Fig.1, run Fig_1.m
+# For Fig.1, run Fig_1.m (SSA.mw is used to calculate the confidential ellipses) 
 
 # Download data from www.braingraph.org
 # In our simulation, the data is Data_83.gml
