@@ -4,7 +4,7 @@
 
 # In our simulation, we have used the data Data_83.gml, which is available at www.braingraph.org
 
-# First, we find the Laplacian for the brain connectome data: Data_83.gml by Laplacian.m
+# First, we find the Laplacian for the brain connectome data Data_83.gml by Laplacian.m
 
 # For Fig.2, run Fig_2.m
 
