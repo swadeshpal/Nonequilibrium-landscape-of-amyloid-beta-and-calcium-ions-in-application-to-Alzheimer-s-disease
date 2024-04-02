@@ -2,8 +2,7 @@
 
 # For Fig.1, run Fig_1.m (SSA.mw is used to calculate the confidential ellipses) 
 
-# Download data from www.braingraph.org
-# In our simulation, the data is Data_83.gml
+# In our simulation, we have used the data Data_83.gml, which is available at www.braingraph.org
 
 # First, we find the Laplacian for the brain connectome data: Data_83.gml by Laplacian.m
 
