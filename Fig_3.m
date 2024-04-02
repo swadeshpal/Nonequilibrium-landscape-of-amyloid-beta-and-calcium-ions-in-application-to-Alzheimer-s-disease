@@ -165,7 +165,9 @@ CPOS=get(ah5,'Position');
 set(ah5,'Position',CPOS-[0.0,0.02,0,0]);
 
 clear all
-load('./Fig3/Node3.mat')
+load('./Fig3/Node3_U.mat')
+load('./Fig3/Node3_xy.mat')
+load('./Fig3/Node3_Rest.mat')
 surf(xp,yp,U); colormap("jet");  shading interp; axis tight
 view(-15,63)
 for k = 1 : size(mu_pca, 1)
@@ -183,7 +185,9 @@ ah6=subplot(2,4,6);
 CPOS=get(ah6,'Position');
 set(ah6,'Position',CPOS-[0.0,0.02,0,0]);
 clear all
-load('./Fig3/Node39.mat')
+load('./Fig3/Node39_U.mat')
+load('./Fig3/Node39_xy.mat')
+load('./Fig3/Node39_Rest.mat')
 surf(xp,yp,U); colormap("jet");  shading interp; axis tight
 
 for k = 1 : size(mu_pca, 1)
@@ -208,7 +212,9 @@ ah7=subplot(2,4,7);
 CPOS=get(ah7,'Position');
 set(ah7,'Position',CPOS-[0.0,0.02,0,0]);
 clear all
-load('./Fig3/Node4.mat')
+load('./Fig3/Node4_U.mat')
+load('./Fig3/Node4_xy.mat')
+load('./Fig3/Node4_Rest.mat')
 surf(xp,yp,U); colormap("jet");   shading interp; axis tight
 
 for k = 1 : size(mu_pca, 1)
@@ -232,7 +238,9 @@ ah8=subplot(2,4,8);
 CPOS=get(ah8,'Position');
 set(ah8,'Position',CPOS-[0.0,0.02,0,0]);
 clear all
-load('./Fig3/Node36.mat')
+load('./Fig3/Node36_U.mat')
+load('./Fig3/Node36_xy.mat')
+load('./Fig3/Node36_Rest.mat')
 surf(xp,yp,U); colormap("jet");   shading interp; axis tight
 
 for k = 1 : size(mu_pca, 1)
@@ -253,4 +261,4 @@ title('$\mbox{Node~36}$', 'Interpreter', 'latex', 'fontweight', 'Bold', 'FontSiz
 
 %% Save the figure
 set(gcf,'PaperUnits','inches','PaperPosition',[0 0 7 5])
-% print -dpng Fig3.png -r500
+print -dpng Fig3.png -r500
